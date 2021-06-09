@@ -2,6 +2,9 @@ import processing.core.PApplet;
 
 public class VoxelGame extends PApplet{
 
+
+    //hello!
+
     World world;
 
     public static void main(String[] args) {
