@@ -1,7 +1,7 @@
 import processing.core.PApplet;
 
 public class VoxelGame extends PApplet{
-    
+
     World world;
 
     public static void main(String[] args) {

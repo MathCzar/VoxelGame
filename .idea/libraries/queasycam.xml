@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="queasycam">
     <CLASSES>
-      <root url="jar://$USER_HOME$/Downloads/queasycam.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/IdeaProjects/VoxelGame/lib/queasycam.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
