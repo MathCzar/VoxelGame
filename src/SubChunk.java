@@ -49,6 +49,7 @@ public class SubChunk {
 
     public void genMeshes() {
 
+        //clears the meshes
         meshes.clear();
 
         for(int z=0; z<16;z++) {

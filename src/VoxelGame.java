@@ -5,10 +5,12 @@ public class VoxelGame extends PApplet{
     World world;
 
     public static void main(String[] args) {
+        //sets the main class as "VoxelGame"
         PApplet.main("VoxelGame");
     }
 
     public void settings() {
+        //sets the size of the window
         size(1000, 800, P3D);
     }
 

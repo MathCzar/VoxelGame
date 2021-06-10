@@ -12,10 +12,14 @@ public class Block {
 
     public Block(PApplet app, TextureManager textureManager, String type) {
 
+        //scales the block
         scale = 100;
+
+
         this.app = app;
         this.type = type;
 
+        //gets the textures from the "TextureManager" class
         front = textureManager.front;
         top = textureManager.top;
         bottom = textureManager.bottom;
@@ -24,6 +28,7 @@ public class Block {
 
     public void draw() {
 
+        //draw all the faces of the block
         this.drawFront();
         this.drawBack();
         this.drawLeft();

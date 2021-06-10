@@ -55,10 +55,10 @@ public class Player extends QueasyCam {
 
     public void draw() {
 
-        //cast our ray
+        //cast the ray
         castRay();
 
-        //draw oru cursor
+        //draw the cursor
         if(curX!=-1) {
 
             app.pushMatrix();

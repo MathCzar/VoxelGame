@@ -10,6 +10,7 @@ public class TextureManager {
 
         try{
 
+            //loads the texture
             texture = app.loadImage("res/grass.jpg");
 
         }catch(Exception e){}

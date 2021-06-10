@@ -2,7 +2,6 @@ import processing.core.PApplet;
 import processing.core.PVector;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.util.Scanner;
@@ -150,6 +149,7 @@ public class Chunk {
 
     }
 
+    //saves the file to the "world" directory
     public void save() {
 
         int cx = (int) pos.x;
