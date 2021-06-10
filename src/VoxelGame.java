@@ -14,20 +14,24 @@ public class VoxelGame extends PApplet{
 
     public void setup() {
 
+        //gets the app from the world class
         world = new World(this);
 
     }
 
     public void draw() {
 
+        //draws a block background
         background(0);
 
+        //draws the world
         world.draw();
 
     }
 
     public void dispose() {
 
+        //saves the chunks
         world.saveFile();
 
         super.dispose();
